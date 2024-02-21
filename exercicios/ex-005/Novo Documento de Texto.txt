@@ -1,0 +1,4 @@
+<strong>temos um destaque</strong> usando a tag strong
+<em>temos um termo</em> em enfase usando a tag em (semantica).
+<ins>sublinhado
+<mark>marcaçao de texto usando backgroud color muda cor usando style <mark style backgroud color>

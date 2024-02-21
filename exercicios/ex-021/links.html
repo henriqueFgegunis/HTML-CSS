@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 166, 255, 0.39);
+
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            margin: auto;
+        
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: rgba(255, 0, 0, 0.392);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgba(0, 0, 255, 0.313);
+        }
+        h1 {
+            text-align: center;
+           text-shadow: 2px 2px 5px;
+           background-color: rgba(0, 255, 64, 0.475);
+           height: 300px;
+           width: 300px;
+           padding: 100px;
+           margin: auto;
+           border-radius: 10px ;
+           border: 1px solid black;
+           text-decoration:underline;
+           
+           
+        
+        }
+        a::before {
+            content: "♥";
+        }
+        a::after {
+            content: "⇒[link]";
+            text-decoration: none;
+            font-weight: none;
+            color: rgba(139, 0, 0, 0.377);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Perdonalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.Youtube.com/">Youtube</a></li>
+        <li><a href="https://www.Linkedin.com/">Linkedin</a></li>
+    </ul>
+</body>
+
+</html>

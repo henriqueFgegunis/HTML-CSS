@@ -1,0 +1,26 @@
+h1 {
+    background-color: rgb(128, 128, 128);
+    height: 38px;
+    width: 368px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    border: 3px solid ;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: rgba(28, 38, 55, 0.225);
+    
+   
+   
+}
+p{
+    margin: 50px;
+    padding: 50px;
+    border: 2px;
+    border-style: dashed;
+    border-radius: 01%;
+    box-shadow: 1px 1px 10px;
+}
+p:hover {
+    color: rgba(255, 0, 0, 0.666);
+}

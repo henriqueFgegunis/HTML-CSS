@@ -1,0 +1,82 @@
+como faço para meu link abrir em outra pg html== target="_blank"
+emoji html === &#xCODEPOINT
+img dinameca 
+    <picture><source media="(max-width: )" srcset="" type="image/png"></picture> -P300px300- -M700px700- -G1000px1000-
+
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="img/ftp.png" type="image/png">
+      <source media="(max-width: 1000px)" srcset="img/ftm.png" type="image/png">
+        <img src="./img/ftg.png" alt="foto grande">
+    </picture>
+ESSA E A ORDEM MAIOR EMBAIXO MENOR ENCIMA O PADRAO USA TAG IMG OS OUTROS SOURCE MEDIA TYPE
+
+fontes html css 
+
+normalmente 16 [PX] e o padrao usar a medida {EM] 1 seria 16 px 2 em o dobro do 16 px
+recomendaçao oficial use px e em  
+
+shorthand maozinha para <ordem---> font style .font weigth .font size .font family
+
+CENTRALIZAR  margin: auto;
+
+para fazer degrade exemplo  background-image: linear-gradient(to right, #EDBFC6, #DE3C4B, #C42847 ;
+background-image: linear-gradient(to right, #89cda5, transparent);
+tags de caixa
+<header>
+<nav>
+<section>
+<article>
+<main>
+<footer>
+<aside>
+
+
+
+SELETORES PERSONALIZADOS
+html id em css #
+html class em css .
+html pseudo class :    :hover 
+html pseudo alements ::
+html cliedren >
+
+
+
+
+
+site :mockflow
+
+planejamento 
+login: henrysoled7@gmail.com
+senha UHh8KyVt+idB3%L
+
+
+
+para resposividade do meu site de foto
+posso usar sistema picture de formataçao de imagem com sorce 
+ou utilizar a mesma imagem grande so que com width 100 % na tag img 
+deley transition-duration:
+
+
+
+
+video responsividade youtube
+div.video{
+    background-color: 
+   
+    margin: 0px -30px 30px -30px;
+
+    padding: 20px;
+     
+    position: relative;
+
+    padding-bottom: 58%;
+
+   
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
