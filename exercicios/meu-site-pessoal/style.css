@@ -37,9 +37,19 @@ header {
 
 }
 header h1{
+    
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.457);
+    color: white;
     padding-bottom: 10px;
     margin: 0px;
 }
+header > p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.455);
+    
+}
+
 nav{
     padding: 10px;
     background-color: rgb(228, 77, 38);
