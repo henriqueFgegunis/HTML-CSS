@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&family=Protest+Revolution&family=Rubik+Mono+One&display=swap');
+
 *{
     margin: 0px;
 }
@@ -34,6 +39,7 @@ header {
     text-align: center;
     padding: 20px;
      background-image: linear-gradient(to bottom, #173459, #E44D26 ) ;
+   
 
 }
 header h1{
@@ -42,6 +48,7 @@ header h1{
     color: white;
     padding-bottom: 10px;
     margin: 0px;
+    text-decoration: underline;
 }
 header > p{
     font-size: 1.5em;
@@ -125,6 +132,18 @@ img {
 
 h1.rubik-mono{
     font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  a.namdhinggo{
+    font-family: "Namdhinggo", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  a.protest {
+    font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
