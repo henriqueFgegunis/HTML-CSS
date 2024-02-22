@@ -1,0 +1,20 @@
+Sobre Mim
+Olá! Meu nome é HenriqueFgegunis, e sou apaixonado por tecnologia e programação. Atualmente, estou imerso no universo do desenvolvimento web, focando meus estudos em HTML e CSS. Estou empenhado em aprimorar minhas habilidades para me tornar um desenvolvedor proficientemente versátil.
+
+O que estou aprendendo:
+HTML: Estou dominando a arte de estruturar conteúdos web de maneira eficiente e semântica utilizando HTML. Com essa linguagem de marcação, estou construindo as bases sólidas para desenvolver websites incríveis.
+
+CSS: Estou explorando o mundo estilizado do CSS para dar vida aos meus projetos. Desde a manipulação de layouts até a criação de animações, estou trabalhando para proporcionar experiências visuais envolventes.
+
+Meus Objetivos:
+Meu objetivo é me tornar um programador habilidoso, capaz de criar soluções web inovadoras e esteticamente agradáveis. Estou ciente de que a jornada será desafiadora, mas estou comprometido com a prática constante e o aprendizado contínuo.
+
+O que você encontrará neste portfólio:
+Projetos pessoais: Explore os projetos que desenvolvi para aplicar meus conhecimentos em HTML e CSS. Cada projeto reflete meu compromisso com a excelência e a busca pela melhoria contínua.
+
+Experiência prática: Ao percorrer meu portfólio, você verá não apenas o resultado final, mas também a minha jornada de aprendizado. Compartilho insights, desafios superados e conquistas, oferecendo uma visão abrangente do meu desenvolvimento como programador.
+
+Próximos Passos:
+Estou ansioso para expandir meu conhecimento para outras tecnologias, como JavaScript, e explorar frameworks modernos. Além disso, busco oportunidades de colaboração e aprendizado contínuo, pois acredito que o compartilhamento de conhecimento é fundamental para o crescimento individual e coletivo.
+
+Obrigado por visitar meu portfólio, HenriqueFgegunis! Se você compartilha do mesmo entusiasmo pela programação web, estou aberto a colaborações e novas experiências. Vamos construir algo incrível juntos!
