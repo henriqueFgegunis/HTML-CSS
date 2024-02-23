@@ -84,3 +84,11 @@ div.video > iframe{
 
 comandos 
 esse comando coloca um espaço entre as lihas do paragrafo  line-height:
+
+foto de fundo abaixo comando para organizar no seu site a imagem dee fundo 
+ margin: auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+           
