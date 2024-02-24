@@ -189,7 +189,6 @@ div.video > iframe{
 }
 iframe {
     background-color: rgb(32, 96, 61);
-    margin: auto;
     height: 300px;
     width: 500px;
     margin: auto;
