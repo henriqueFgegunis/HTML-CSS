@@ -176,7 +176,8 @@ h1.rubik-mono{
   }
 
   a.prog::after{
-    content: "";
+    content: "🔗";
+ 
   }
 
   a.prog:hover{
@@ -184,6 +185,9 @@ h1.rubik-mono{
     background-color: #173459;
     border-radius: 10px;
     transition-duration: 0.5s;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.518);
+    color: rgba(151, 108, 88, 0.188);
   }
 
   article ol {
@@ -195,8 +199,10 @@ h1.rubik-mono{
     padding-bottom: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.437);
     color: white;
+    max-width: 800px;
+    min-width: 300px;
 
-
+    margin: auto;
     
   }
 
@@ -208,6 +214,8 @@ h1.rubik-mono{
     padding: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.437);
     color: white;
+    max-width: 800px;
+    min-width: 300px;
 
   }
     
