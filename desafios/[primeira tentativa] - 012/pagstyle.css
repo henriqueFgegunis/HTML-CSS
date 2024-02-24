@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "h1font" ;
+    src: url("assionOne-Bold.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    background-color: white;
+
+}
+
+
+header {
+    margin: auto;
+    background-color:black ;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-family: "h1font", cursive,;
+    font-size: 10vh;
+    padding-top: 50px; 
+}
+header > p {
+    font-size: 1em;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background-color: white;
+    color: black ;
+    padding: 20px;
+
+
+}
+
+section {
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+
+    
+}
+section > p {
+    padding-bottom: 2em;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+p {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+  }
+  
