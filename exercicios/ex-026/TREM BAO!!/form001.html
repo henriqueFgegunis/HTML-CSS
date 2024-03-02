@@ -4,22 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo criar formularios</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trem bao!</title>
     <style>
         * {
             margin: 0px;
             padding: 0px;
             font-family: Arial, Helvetica, sans-serif;
         }
+
+
+
         body {
-            background-color: lightgray;
+            background-image: url(./f255cc6455cd38860e8d73f64411d39b.jpg) ;
+            background-attachment: fixed;
+            background-position: bottom bottom;
+            background-repeat: no-repeat;
+            margin: auto;
+            display: block;
+            background-size:cover;
+         
 
         }
+         
+            
+
         main
         {
             background-color: white;
             text-align: center;
-            width: 50%;
+            width: 400px;
             margin: auto;
             padding: 10px;
             margin-top: 10px;
@@ -30,7 +44,7 @@
 
         article {
             background-color: white;
-            width: 500px;
+            max-width:500px;
             margin: auto;
             padding: 30px;
             line-height: 2;
@@ -64,11 +78,11 @@
 <article>
 
 <section>
-    <form action="cadastro.php" autocomplete="off">
-
+    <form action="cadastro.php" method="post" autocomplete="off">
+    
      <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome"></p>
      <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome"></p>
-     <p><input type="submit" value="Enviar"></p>
+     <p><input type="submit" value="Enviar"></a></p>
 
 
 
