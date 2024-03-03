@@ -224,8 +224,8 @@ aside h3{
     border-radius: 10px 10px 0px 0px;
 }
 aside ul {
-    list-style-type: "\2714\0020\0020";
-    list-style-position: inside;
+   
+   list-style: inside;
     columns: 2;
 }
 
