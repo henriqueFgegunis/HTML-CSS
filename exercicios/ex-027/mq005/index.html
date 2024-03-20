@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media-query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 
 <body>
     <header>
         <h1>Lovely</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opçao 1</a></li>
                 <li><a href="#">Opçao 2</a></li>
@@ -23,51 +27,37 @@
     </header>
     <main>
         <article>
-            <h2>Testando Midia Querias</h2>
+            <h2>Luxo e Sofisticação: A Essência da Elegância</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non illum voluptatem praesentium esse
-                delectus debitis illo tenetur! Illum quis sapiente culpa at quos quam cum nihil consectetur eos a! Lorem
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dicta! Deserunt quibusdam, dolor
-                molestias, eveniet fugiat voluptate sed vitae consequuntur dignissimos magnam eligendi facilis voluptas
-                tenetur est saepe impedit at? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-                itaque molestiae, autem laboriosam fugiat eius fugit quo deleniti totam dolorem hic alias quas assumenda
-                incidunt expedita doloribus ipsam! Distinctio, ut. loe
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non mollitia incidunt sit impedit fuga beatae
-                quod, voluptate quas accusamus perferendis labore neque harum natus a voluptatibus. Nulla consectetur
-                beatae iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus earum non nulla
-                quisquam, sint atque cumque placeat tempora! Voluptatem, perspiciatis. Temporibus aut rem saepe minima
-                recusandae, ad soluta dolore.
-            </p>
+            <p>
+                Em um mundo onde o comum é facilmente encontrado, o extraordinário se destaca como um farol de
+                exclusividade. Luxo não é apenas uma questão de preço, mas uma experiência rica e envolvente que cativa
+                os sentidos. É a qualidade impecável de um tecido, o brilho sutil de uma joia bem lapidada, e a harmonia
+                perfeita de um design que desafia o tempo.
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non illum voluptatem praesentium esse
-                delectus debitis illo tenetur! Illum quis sapiente culpa at quos quam cum nihil consectetur eos a! Lorem
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dicta! Deserunt quibusdam, dolor
-                molestias, eveniet fugiat voluptate sed vitae consequuntur dignissimos magnam eligendi facilis voluptas
-                tenetur est saepe impedit at? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-                itaque molestiae, autem laboriosam fugiat eius fugit quo deleniti totam dolorem hic alias quas assumenda
-                incidunt expedita doloribus ipsam! Distinctio, ut. loe
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non mollitia incidunt sit impedit fuga beatae
-                quod, voluptate quas accusamus perferendis labore neque harum natus a voluptatibus. Nulla consectetur
-                beatae iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus earum non nulla
-                quisquam, sint atque cumque placeat tempora! Voluptatem, perspiciatis. Temporibus aut rem saepe minima
-                recusandae, ad soluta dolore.
-            </p>
+                A elegância é encontrada na simplicidade de linhas puras e na atenção meticulosa aos detalhes. É uma
+                expressão de bom gosto que transcende modismos e tendências passageiras. O verdadeiro luxo é atemporal,
+                uma herança que se valoriza com o passar dos anos.
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non illum voluptatem praesentium esse
-                delectus debitis illo tenetur! Illum quis sapiente culpa at quos quam cum nihil consectetur eos a! Lorem
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dicta! Deserunt quibusdam, dolor
-                molestias, eveniet fugiat voluptate sed vitae consequuntur dignissimos magnam eligendi facilis voluptas
-                tenetur est saepe impedit at? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-                itaque molestiae, autem laboriosam fugiat eius fugit quo deleniti totam dolorem hic alias quas assumenda
-                incidunt expedita doloribus ipsam! Distinctio, ut. loe
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non mollitia incidunt sit impedit fuga beatae
-                quod, voluptate quas accusamus perferendis labore neque harum natus a voluptatibus. Nulla consectetur
-                beatae iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus earum non nulla
-                quisquam, sint atque cumque placeat tempora! Voluptatem, perspiciatis. Temporibus aut rem saepe minima
-                recusandae, ad soluta dolore.
+                Para aqueles que buscam o que há de mais refinado, oferecemos uma coleção de itens selecionados que
+                representam o ápice da sofisticação. Cada peça é uma obra de arte, criada com maestria para encantar e
+                inspirar. Convidamos você a explorar um mundo onde a riqueza não é medida apenas em cifras, mas na
+                qualidade incomparável do que é verdadeiramente elegante.
             </p>
+           
+      
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+       
+        }
+    </script>
 </body>
 
 </html>
