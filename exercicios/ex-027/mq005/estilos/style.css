@@ -68,6 +68,7 @@ article > h2 {
     text-align: center;
     text-decoration: underline;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.308);
+    font-size: 3.5vw;
 }
 
 article > p {
