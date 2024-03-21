@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        
+        
+        
+        
+    }
+    
+    
+    menu > ul > li {
+        display: inline-block;
+        
+        
+    }
+
+    menu > ul > li > a {
+        color: rgba(255, 255, 255, 0.481);
+        font-weight: bolder;
+        text-shadow: 3px 3px 10px black;
+        border-radius: 3px 10px ;
+        transition-duration: 0.4s;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        background-color: rgba(0, 0, 0, 0.257);
+        padding: 7px;
+    }
+    menu > ul > li > a:hover {
+        color: white;
+        text-shadow: none;
+    }
+}
