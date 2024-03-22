@@ -40,7 +40,9 @@
         width: 768px;
     }
 
-    img {
-        max-width: 500px;
+    .img1 > img {
+        max-width: 768px;
     }
+
+    
 }
