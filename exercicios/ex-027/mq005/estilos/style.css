@@ -53,7 +53,6 @@ menu > ul > li > a:hover {
 }
 
 main {
-    
     width: 80vw;
     background-color: rgba(255, 255, 255, 0.575);
     margin: auto;
@@ -61,6 +60,9 @@ main {
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.385);
+}
+article {
+    columns: 2;
 }
 
 article > h2 {
@@ -81,6 +83,23 @@ article > p {
     text-shadow: 3px 3px 7px rgb(255, 255, 255);
 }
 
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    text-decoration: dashed;
+    padding: 0px;
+    margin-top: 10px;
+}
+footer > p {
+    background-color: #79530054;
+    width: 768px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2px;
+
+}
 
 
 .material-symbols-outlined {
@@ -105,4 +124,26 @@ span#burguer:hover {
     color: black;
     
 
+}
+
+img {
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    max-width: 400px ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.502);
+}
+
+.img1 {
+
+   font-weight: bolder;
+   line-height: 30px;
+}
+
+.img1 > p {
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
 }

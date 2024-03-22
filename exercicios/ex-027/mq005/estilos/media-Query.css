@@ -35,4 +35,12 @@
         color: white;
         text-shadow: none;
     }
+
+    main {
+        width: 768px;
+    }
+
+    img {
+        max-width: 500px;
+    }
 }
