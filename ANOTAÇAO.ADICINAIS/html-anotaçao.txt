@@ -96,3 +96,10 @@ text-transform: uppercase;
 letras em maisculo com mesmo tamanho de minusculas
 font-variant: small-caps;
            
+/* typical device breakpoint
+celular tela: ate 600px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+grande telas: acima de 1200px
+*/
+
